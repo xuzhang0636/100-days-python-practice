@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 """
 -------------------------------------------------
-   File Name：     day4-1
-   Description :  用for循环实现1-100求和
-   Author :       Robert Xu
+   File Name：     day4-2
+   Description :   输出9 9乘法口诀表
+   Author :        Robert Xu
    date：          2020/1/24
 -------------------------------------------------
    Change Activity:
@@ -12,8 +12,7 @@
 """
 __author__ = 'Robert Xu'
 
-sum = 0
-for i in range(101):
-    sum += i
-
-print('sum from 1 - 100: ', sum)
+for i in range(1, 10):
+    for j in range(1, i + 1):
+        print('%d*%d=%d' % (i, j, i * j), end='\t')
+    print()
