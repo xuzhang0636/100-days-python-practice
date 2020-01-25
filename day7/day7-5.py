@@ -48,6 +48,6 @@ print(str3)
 # 获得字符串修剪左右两侧空格之后的拷贝
 print(str3.strip())
 
-# format the string 
+# format the string
 a, b = 5, 10
 print(f'{a} + {b} = {a+b}')
