@@ -48,3 +48,7 @@ def main():
     top.title('小游戏')
     # 创建标签对象并添加到顶层窗口
     label = tkinter.Label(top, text='Hello, world!', font='Arial -32', fg='red')
+    label.pack(expand=1)
+    # 创建一个装按钮的容器
+    panel = tkinter.Frame(top)
+    #创建按钮对象 
